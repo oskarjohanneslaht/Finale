@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 
 
-app.use('/test', todoRouter);
+app.use('/', todoRouter);
 
 
 
